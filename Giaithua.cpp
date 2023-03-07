@@ -2,7 +2,7 @@
 using namespace std;
 
 int tinhGiaiThua(int n){
-	if (n == 0 || n ==2 ){
+	if (n == 0 ){
 		return 1;
 	}else {
 		return n * tinhGiaiThua(n-1);
